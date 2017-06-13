@@ -1,0 +1,47 @@
+body {
+    background: #eee;
+}
+
+#display-scr {
+    text-align: right;
+    margin: 20px 10px 15px 35px;
+    padding: 2px 7px;
+    width:300px;
+}
+
+.buttons-container {
+    margin: 0px 0px 0px 30px;
+    width: 400px;
+}
+
+.num-container {
+    width: 165px;
+    display: inline-block;
+}
+
+.operators-container {
+    display: inline-block;
+    width: 100px;
+}
+
+.num-button, .operator-button {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    border: 2px solid #aaa;
+    border-radius: 3px;
+    padding: 7px 15px;
+    margin: 5px;
+}
+
+.operator-button {
+    margin: 3px;
+}
+
+button:focus {
+    outline: 0;
+}
+
+#zero-button {
+    padding: 7px 44px;
+}
