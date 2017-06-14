@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="calc.js"></script>
     <title>My Calculator</title>
 </head>
 <body>
@@ -24,7 +26,7 @@
                 <button class="num-button" value="2">2</button>
                 <button class="num-button" value="3">3</button>
 
-                <button class="num-button" id="float-button" value=".">.</button>
+                <button id="float-button" value=".">.</button>
                 <button class="num-button" value="0" id="zero-button">0</button>
             </div>
             <div class="operators-container">
@@ -32,12 +34,11 @@
                 <button class="operator-button" value="-">-</button>
                 <button class="operator-button" value="/">/</button>
                 <button class="operator-button" value="*">*</button>
-                <button class="operator-button" value="%">%</button>                        
+                <button id="percent-button" value="%">%</button>                        
             </div>
             <button id="eq-button" value="=">=</button>
             <button id="clear-button" value="C">C</button>
         </div>
     </div>
-    <script src="calc.js"></script>
 </body>
 </html>

@@ -24,7 +24,7 @@ body {
     width: 100px;
 }
 
-.num-button, .operator-button {
+.num-button, .operator-button, #float-button, #percent-button {
     background-color: #444;
     color: #fff;
     text-align: center;
