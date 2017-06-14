@@ -3,28 +3,27 @@ body {
 }
 
 #display-scr {
+    background-color: #003808;
+    color: #fff;
     text-align: right;
     margin: 20px 10px 15px 35px;
-    padding: 2px 7px;
-    width:300px;
+    padding: 10px 7px;
+    width:315px;
+    font-weight: bold;
+    font-size: 18pt;
 }
 
 .buttons-container {
     margin: 0px 0px 0px 30px;
-    width: 400px;
+    width: 350px;
 }
 
-.num-container {
-    width: 165px;
-    display: inline-block;
+.main-container {
+    width:350px;
+    margin: 50px 0px 0px 70px;
 }
 
-.operators-container {
-    display: inline-block;
-    width: 100px;
-}
-
-.num-button, .operator-button, #float-button, #percent-button {
+button {
     background-color: #444;
     color: #fff;
     text-align: center;
@@ -32,16 +31,49 @@ body {
     border-radius: 3px;
     padding: 7px 15px;
     margin: 5px;
-}
-
-.operator-button {
-    margin: 3px;
+    width: 55px;
+    box-shadow: 0px 5px 1px 0px #aaa;
+    transition: all 0.2s ease;
+    font-weight: bold;
+    font-size: 12pt;
 }
 
 button:focus {
     outline: 0;
 }
 
+.operator-button {
+    background-color: #335e07;
+    border: 2px solid #559e0b;
+    box-shadow: 0px 5px 1px 0px #559e0b;
+}
+
 #zero-button {
-    padding: 7px 44px;
+    width: 123px;
+}
+
+#percent-button {
+    background-color: #079e1c;
+    border: 2px solid #08d625;
+    box-shadow: 0px 5px 1px 0px #08d625;
+}
+
+#clear-button {
+    background-color: #5af46f;
+    border: 2px solid #7aff8c;
+    box-shadow: 0px 5px 1px 0px #7aff8c;
+}
+
+#eq-button {
+    margin-right: 14px;
+    float: right;
+    padding: 30px 15px;
+    background-color: #2f079b;
+    border: 2px solid #4b10ed;
+    box-shadow: 0px 5px 1px 0px #4b10ed;
+}
+
+button:active {
+    box-shadow: 0px 0px #aaa;
+    top: 4px;
 }
